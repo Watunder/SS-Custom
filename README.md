@@ -1,5 +1,5 @@
 # SS-Custom
-Custom `fragment` shaders for [Sprite Studio 6]()
+Custom `fragment` shaders for [OPTPiX SpriteStudio 6](http://www.webtech.co.jp/spritestudio/index.html)
 
 ## Basic code
     #version 120
