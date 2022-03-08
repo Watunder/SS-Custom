@@ -1,7 +1,7 @@
 # SS-Custom
 Custom shaders for [OPTPiX SpriteStudio 6](http://www.webtech.co.jp/spritestudio/index.html)
 
-## Old reference
+## Reference
 - VS
 
         #version 120
