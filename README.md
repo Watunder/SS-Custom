@@ -55,3 +55,17 @@ Custom shaders for [OPTPiX SpriteStudio 6](http://www.webtech.co.jp/spritestudio
         {
             return	vec4( p.rgb * gl_TexCoord[1].x + mix( vec3( 1.0 ), p.rgb, gl_TexCoord[1].z ) * gl_Color.rgb * gl_TexCoord[1].y, p.a * gl_Color.a );
         }
+        
+        void main()
+        {
+
+                if ( args[A_TW] <= 0.0 ) {
+                        gl_FragColor = gl_Color;
+                        return;
+                }
+
+                vec4	Pixel;
+                vec4	Blend = getBlendColor( Pixel );
+
+                gl_FragColor = Blend;
+        }
